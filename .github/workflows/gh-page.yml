@@ -1,0 +1,3 @@
+git add .github/workflows/gh-pages.yml
+git commit -m "chore: add GitHub Pages deployment workflow"
+git push
