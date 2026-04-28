@@ -1,12 +1,12 @@
 name: Deploy GitHub Pages
 
-permissions:
-  contents: write
-
 on:
   push:
     branches:
       - main   # 如果你的主分支不是 main，请改为实际分支名
+      
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
